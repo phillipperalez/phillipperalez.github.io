@@ -136,7 +136,8 @@ var definitions=[
 						"send_to_sftp",
 						"send_to_s3",
 						"send_outgoing_webhook",
-						"see_sql" /* v4.10 */
+						"see_sql",
+						"create_alerts",	/* v4.10 */
 						/* FYI - SSO does not allow all permissions. If you add unsupported permissions, they will fail  */
 					]}}
 			},
@@ -179,7 +180,7 @@ var initialValue={
 		"external_user_id":"test-id-123",
 		"first_name":"Testy",
 		"last_name":"McTestFace",
-		"permissions":["access_data","see_looks"]
+		"permissions":["access_data","see_looks", "create_alerts"]
 	}
 
 var editorDef= {
